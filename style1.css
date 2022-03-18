@@ -1,0 +1,33 @@
+.ps-1{
+padding: 15px;
+    margin: 20px 40px 40px auto;
+}
+th{
+    font-family: Arial, inherit, "JetBrains Mono", serif;
+
+}
+.valide{
+    background-color: #5BE881;
+}
+.rejected{
+
+    background-color: #FF0000;
+
+}
+
+.on-validation{
+    background-color: #FDB64D;
+
+}
+h2{
+    padding: 20px;
+    font-family: Arial, serif;
+font-weight: bold;
+    font-size: 20px;
+}
+.nord{
+    background-color: orange;
+    width: 17%;
+    height: 20%;
+    float: right;
+}
