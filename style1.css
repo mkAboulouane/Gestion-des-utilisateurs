@@ -1,0 +1,163 @@
+/*.navbar {*/
+/*    overflow: hidden;*/
+/*    background-color: #333;*/
+/*    position:static;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*}*/
+nav{
+    background-color: #fff;
+    color: #fff;
+
+}
+
+.b1{
+    height: 15%;
+    color: orange;
+
+}
+label{
+    font-size: 15px;
+}
+.right{
+    position: relative;
+    float: right;
+    left: 82.5%;
+}
+
+.ps-1{
+padding: 15px;
+    margin: 20px 40px 40px auto;
+}
+th{
+    font-family: Arial, inherit, "JetBrains Mono", serif;
+
+}
+.etat-border{
+    margin: -10px;
+}
+
+.valide{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    border: 4px double #5BE881;
+    text-align: center;
+    width: 100px;
+    transition: all 0.5s;
+    pointer-events: none;
+    background-color: #5BE881;
+}
+.rejected{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    border: 4px double #FF0000;
+    text-align: center;
+    width: 100px;
+    transition: all 0.5s;
+    pointer-events: none;
+    background-color: #FF0000;
+
+}
+.pull-rigth{
+    right: 100px;
+}
+.enregistrer{
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    color:green;
+    font-size: 20px;
+    position: absolute;
+    bottom: 13.5%;
+    right: 20%;
+    height: 50px;
+    width: 15%;
+}
+
+.sortir-style{
+    position: fixed;
+    bottom: 80px;
+    left: 400px;
+    opacity: 0;
+    /*height: 50px;*/
+    /*width: 130px;*/
+
+}
+.on-validation{
+    color:#fff;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 4px double #FDB64D;
+    text-align: center;
+    width: 100px;
+    transition: all 0.5s;
+    pointer-events: none;
+    background-color: #FDB64D;
+
+}
+h2{
+    right: 10%;
+    padding: 7px;
+    font-family: Arial, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    position: marker;
+}
+.nord{
+    background-color: orange;
+    width: 17%;
+    height: 20%;
+    float: right;
+}
+.modal1{
+    background-color:#fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius:5px;
+    padding: 30px 20px;
+    /*width:100%;*/
+    /*width: 600px;*/
+    height: 80%;
+    width: 65%;
+    text-align: center;
+}
+.modal-container{
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+.modal-container.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+svg {pointer-events: none;}
+
+#open{
+
+}
+rect.btn {
+    stroke:#fff;
+    fill:#fff;
+    fill-opacity:0;
+    stroke-opacity:0;
+}
+i{
+    padding: 4px 4px;
+    margin: 4px;
+}
+button.etat1{
+    pointer-events: none;
+}
