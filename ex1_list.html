@@ -233,7 +233,7 @@
                 outputHTML += '<td>' + JSON.parse(localStorage.getItem("users"))[i].lastName + '</td>';
                 outputHTML += '<td>' + JSON.parse(localStorage.getItem("users"))[i].userName + '</td>';
                 outputHTML += '<td>' + JSON.parse(localStorage.getItem("users"))[i].registrationNumber + '</td>';
-                outputHTML += '<td><i class="fa-solid fa-trash-can" onclick="deleteUser(JSON.parse(localStorage.getItem("users"))[i].id)"></i></td>';
+                outputHTML += '<td><i style="cursor: pointer;" class="fa-solid fa-trash-can" onclick="deleteUser(JSON.parse(localStorage.getItem("users"))[i].id)"></i></td>';
                 document.getElementById("test").innerHTML = outputHTML;
                 outputHTML += "</tr>";
                 outputHTML += "</tbody>"
